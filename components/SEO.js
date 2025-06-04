@@ -115,12 +115,14 @@ const SEO = props => {
           content={SEO_GOOGLE_SITE_VERIFICATION}
         />
       )}
-      {SEO_BAIDU_SITE_VERIFICATION && (
+      {/* modify by Alan on 20250604 这个好像没有生效，我直接硬编码进去试试 */}
+      {/* {SEO_BAIDU_SITE_VERIFICATION && (
         <meta
           name='baidu-site-verification'
           content={SEO_BAIDU_SITE_VERIFICATION}
         />
-      )}
+      )} */}
+      <meta name='baidu-site-verification' content='codeva-Za4vvVK2H7' />
       <meta name='keywords' content={keywords} />
       <meta name='description' content={description} />
       <meta property='og:locale' content={lang} />
