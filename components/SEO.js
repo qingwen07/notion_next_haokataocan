@@ -108,6 +108,7 @@ const SEO = props => {
         content='width=device-width, initial-scale=1.0, maximum-scale=5.0, minimum-scale=1.0'
       />
       <meta name='robots' content='follow, index' />
+      <meta name='baidu-site-verification' content='codeva-Za4vvVK2H7' />
       <meta charSet='UTF-8' />
       {SEO_GOOGLE_SITE_VERIFICATION && (
         <meta
@@ -122,7 +123,7 @@ const SEO = props => {
           content={SEO_BAIDU_SITE_VERIFICATION}
         />
       )} */}
-      <meta name='baidu-site-verification' content='codeva-Za4vvVK2H7' />
+      
       <meta name='keywords' content={keywords} />
       <meta name='description' content={description} />
       <meta property='og:locale' content={lang} />
